@@ -71,6 +71,12 @@ export default defineConfig({
             ],
           },
           {
+            text: 'The UTXO Model',
+            link: '/guide/the-utxo-model/',
+            collapsed: false,
+            items: [],
+          },
+          {
             text: 'Creating a Fuel dApp',
             link: '/guide/creating-a-fuel-dapp/',
             collapsed: true,
@@ -82,6 +88,10 @@ export default defineConfig({
               {
                 text: 'Deploying a dApp to Testnet',
                 link: '/guide/creating-a-fuel-dapp/deploying-a-dapp-to-testnet',
+              },
+              {
+                text: 'Working with Predicates',
+                link: '/guide/creating-a-fuel-dapp/working-with-predicates',
               },
             ],
           },
@@ -236,6 +246,10 @@ export default defineConfig({
                 link: '/guide/contracts/configurable-constants',
               },
               {
+                text: 'Minted Token Asset ID',
+                link: '/guide/contracts/minted-token-asset-id',
+              },
+              {
                 text: 'Managing Deployed Contracts',
                 link: '/guide/contracts/managing-deployed-contracts',
               },
@@ -285,6 +299,10 @@ export default defineConfig({
                 text: 'Send And Spend Funds From Predicates',
                 link: '/guide/predicates/send-and-spend-funds-from-predicates',
               },
+              {
+                text: 'Methods',
+                link: '/guide/predicates/methods',
+              },
             ],
           },
           {
@@ -307,6 +325,21 @@ export default defineConfig({
               {
                 text: 'Transaction Policies',
                 link: '/guide/transactions/transaction-policies',
+              },
+            ],
+          },
+          {
+            text: 'Encoding',
+            link: '/guide/encoding/',
+            collapsed: true,
+            items: [
+              {
+                text: 'Encode and Decode',
+                link: '/guide/encoding/encode-and-decode',
+              },
+              {
+                text: 'Working with Bytes',
+                link: '/guide/encoding/working-with-bytes',
               },
             ],
           },
@@ -485,13 +518,8 @@ export default defineConfig({
           {
             text: 'Errors',
             link: '/guide/errors/',
-            collapsed: true,
-            items: [
-              {
-                text: 'Error Codes',
-                link: '/guide/errors/error-codes',
-              },
-            ],
+            collapsed: false,
+            items: [],
           },
           apiLinks,
         ],
